@@ -9,3 +9,7 @@
 .listing .row {
   margin-bottom: 20px;
 }
+
+.listing .row img {
+  margin: 5px;
+}
