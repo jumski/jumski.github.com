@@ -1,0 +1,7 @@
+
+.jumbotron { margin-bottom: 0; padding-top: 50px; padding-bottom: 20px; }
+.jumbotron .lead {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 20px;
+}
