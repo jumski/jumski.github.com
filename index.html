@@ -141,10 +141,9 @@
           </h4>
           Ringpay started as Android application for small device-to-device payments.
           I have designed and developed complete JSON API (Rails 4.1) for mobile app.
-          API was designed to limit battery drain by using push notifications
-          instead of polling when possible.
+          To limit battery drain, I preferred push notifications instead of polling when possible.
           Most challenging part was implementing symmetric-key encryption
-          for all transaction requests.
+          for all transaction requests, which made the app immune to HeartBleed-like attacks on SSL.
         </div>
 
         <div class="row">
