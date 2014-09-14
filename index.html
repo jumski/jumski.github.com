@@ -74,7 +74,8 @@
           in Rails 4.1 and Grape working closely with remote iOS team.
           I have implemented new financial data provider, parallel
           chart data downloading, lot of optimizations using Postgres functions and triggers,
-          using memcache to cache what could be cached. Soon available in AppStore.
+          using memcache to cache what could be cached. Powered by clockwork and Sidekiq.
+          Soon available in AppStore.
         </div>
 
         <div class="row">
@@ -89,6 +90,18 @@
           Most challanging part was implementing additional layer of symmetric-key encryption
           of all transaction requests (done as a Rack middleware).
         </div>
+
+        <div class="row">
+          <h4>
+            <a href="http://sentenzeitalia.it">SentenzeItalia</a>
+          </h4>
+          SentenzeItalia is Italian law documents search engine and aggregator.
+          It was a legacy-code project that i have cleaned and refactored
+          to deliver version 2 of the website.
+          I have implemented document scraping from various sources (HTML, DOC, PDF, XML, RTF).
+          We have used ElasticSearch as a search engine, and wrote an AngularJS
+          single-page application to search and browse indexed documents.
+          Version 2 is now during beta testing and will be available soon.
       </div>
 
       <div class="row marketing">
