@@ -2,8 +2,8 @@
 main: publish
 
 publish:
-	git add .
-	git commit -m "WIP"
+	git add . || true
+	git commit -m "WIP" || true
 	git push origin master
 	git push heroku master
 
