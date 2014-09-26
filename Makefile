@@ -7,6 +7,9 @@ publish:
 	git push origin master
 	git push heroku master
 
+show:
+	google-chrome "http://wojtek-majewski.herokuapp.com"
+
 export_to_pdf:
 	wkhtmltopdf --allow css/ --allow bower_components/ --allow img/ --title "Wojtek Majewski - Full stack engineer" index.html wojtek_majewski_resume.pdf
 
