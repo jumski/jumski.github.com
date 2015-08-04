@@ -19,7 +19,7 @@ ul.timeline
         .timeline-body
           p= project.description
 
-          - if project.tags
-            span.tags
-              - project.tags.each do |tag|
-                span.badge= tag
+        - if project.tags
+          .tags
+            - project.tags.each do |tag|
+              span.badge= tag
