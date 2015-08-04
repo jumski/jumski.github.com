@@ -1,25 +1,29 @@
----
-title: Welcome to Middleman
----
+.jumbotron
+  .media
+    .pull-left
+      img src="images/wojtek.jpg" class="media-object img-circle"
 
+    .media-body.lead
+      = data.info.summary
 
-ul.timeline
-  - data.projects.map { |p| OpenStruct.new(p) }.each_with_index do |project, i|
-    li class="#{'timeline-inverted' if i%2==1}"
-      .timeline-badge
-        i.glyphicon.glyphicon-check
-      .timeline-panel
-        .timeline-heading
-          h4.timeline-title= project.name
-          p.pull-right
-            small.text-muted
-              i.glyphicon.glyphicon-time
-              =< project.time
-          p= link_to project.url, project.url
-        .timeline-body
-          p= project.description
+.row
+  ul.timeline
+    - data.projects.map { |p| OpenStruct.new(p) }.each_with_index do |project, i|
+      li class="#{'timeline-inverted' if i%2==1}"
+        .timeline-badge
+          i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            h4.timeline-title= project.name
+            p.pull-right
+              small.text-muted
+                i.glyphicon.glyphicon-time
+                =< project.time
+            p= link_to project.url, project.url
+          .timeline-body
+            p= project.description
 
-        - if project.tags
-          .tags
-            - project.tags.each do |tag|
-              span.badge= tag
+          - if project.tags
+            .tags
+              - project.tags.each do |tag|
+                span.badge= tag

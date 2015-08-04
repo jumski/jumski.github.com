@@ -1,0 +1,37 @@
+- name: 'Ruby On Rails'
+  description:
+    I play with ruby for 6 years now, last 4 years working with production code.
+    I prefer to write tests first, have lot of experience with web scraping and background jobs
+    (mainly sidekiq). Cannot live without CI server. Love to get my code reviewed
+    and review other's code.
+
+- name: 'JavaScript'
+  description:
+    I have used Backbone and AngularJS.  I prefer elegance of <strong>CoffeeScript</strong>
+    but I have knowledge of JavaScript's good and bad parts.
+
+- name: Frontend
+  description:
+    Fluent with Bootstrap, HTML5 and CSS.
+    If possible, I prefer to use SASS and SLIM.
+
+- name: Databases
+  description:
+    I have experience with MySQL, PostgreSQL and Redis.
+    I am not scared of writing SQL queries without help of the ORM,
+    I had occasion to move app logic to db level, leveraging triggers and procedures.
+    I have also some experience with ElasticSearch.
+
+- name: APIs and Cloud
+  description:
+    I have implemented APIs for mobile and web applications.
+    I am familiar with REST, Amazon AWS,
+    Heroku, Pusher, Google Cloud Messaging.
+    I also have experience with working with legacy SOAP services using Savon.
+
+- name: Linux
+  description:
+    I work on Linux and i love it. I use VIM as my editor. I only need a browser and
+    terminal to work.
+    I was maintaining Linux Servers in the past and I'm doing it now for my personal use.
+    Familiar with Chef, Docker, Logstash and Kibana.
