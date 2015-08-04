@@ -4,7 +4,13 @@
       img src="images/wojtek.jpg" class="media-object img-circle"
 
     .media-body.lead
-      = data.info.summary
+      p= data.info.summary
+      p.pull-right
+        => link_to data.info.email, "emailto:#{data.info.email}"
+        '|
+        => link_to 'LinkedIn', data.info.linkedin
+        '|
+        = link_to 'GitHub', data.info.github
 
 .row
   ul.timeline
