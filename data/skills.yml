@@ -3,11 +3,11 @@
     I play with ruby for 6 years now, last 4 years working with production code.
     I prefer to write tests first, have lot of experience with web scraping and background jobs
     (mainly sidekiq). Cannot live without CI server. Love to get my code reviewed
-    and review other's code.
+    and to review other's code.
 
 - name: 'JavaScript'
   description:
-    I have used Backbone and AngularJS.  I prefer elegance of <strong>CoffeeScript</strong>
+    I have used Backbone and AngularJS. I prefer elegance of CoffeeScript
     but I have knowledge of JavaScript's good and bad parts.
 
 - name: Frontend
@@ -18,7 +18,7 @@
 - name: Databases
   description:
     I have experience with MySQL, PostgreSQL and Redis.
-    I am not scared of writing SQL queries without help of the ORM,
+    I am not scared of writing SQL queries without help of the ORM.
     I had occasion to move app logic to db level, leveraging triggers and procedures.
     I have also some experience with ElasticSearch.
 

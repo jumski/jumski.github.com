@@ -27,3 +27,16 @@
             .tags
               - project.tags.each do |tag|
                 span.badge= tag
+
+.row
+  h3 Technical skills
+
+  .col-md-6
+    - data.skills[0..2].each do |skill|
+      h4= skill.name
+      p= skill.description
+
+  .col-md-6
+    - data.skills[3..-1].each do |skill|
+      h4= skill.name
+      p= skill.description
