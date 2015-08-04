@@ -12,6 +12,7 @@ gem 'kramdown'
 gem 'sass'
 gem 'bootstrap-sass'
 gem 'middleman-deploy', '~> 1.0'
+gem "middleman-google-analytics"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
