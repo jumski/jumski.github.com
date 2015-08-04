@@ -1,0 +1,124 @@
+- name: 'Freelance app'
+  url: 'http://kumdle.com'
+  time: 'October 2014 - September 2015'
+  tags: ['Rails 4.1', 'Postgres', 'Websockets']
+  description:
+    Kumdle is an Elance/Odesk clone. I joined half-way as a freelance contractor.
+    I have improved existing code and implemented new features, like multiple files uploads,
+    markdown content editor with github-like uploads, real-time websocket notifications
+    among many others.
+
+- name: 'UpTick'
+  url: 'http://getuptick.com'
+  time: 'June 2014 - September 2014'
+  company: 'MONK'
+  tags: ['Rails 4.1', 'Grape', 'JSON API', 'Sidekiq', 'Pusher', 'Postgres']
+  description:
+    UpTick is iPhone daytrading application for Stocks and Forex.
+    Joined UpTick team half-way as a MONK contactor.
+    I have implemented support for new financial data source, parallel
+    charts data fetching, fast user geolocation and lot of other stuff.
+    Application was heavily optimized using Postgres functions and triggers
+    and memcached as a cache backend.
+
+- name: 'Ringpay (now Charing)'
+  url: 'http://charing.org/start'
+  time: 'February 2014 - May 2014'
+  company: 'MONK'
+  tags: ['Rails 4.0', 'Postgres', 'Sidekiq', 'Rack', 'Google Cloud Messaging']
+  description:
+    Ringpay started as Android application for small device-to-device payments.
+    I have designed and developed complete JSON API (Rails 4.1) for the mobile app.
+    We used Google Cloud Messaging for push notifications.
+    Most challenging part was implementing symmetric-key encryption
+    for all transaction requests, which made the app immune to HeartBleed-like attacks on SSL
+    (imnplemented as a Rack middleware).
+
+- name: 'SentenzeItalia'
+  url: 'http://sentenzeitalia.it'
+  time: 'December 2012 - February 2014 (with breaks)'
+  tags: ['Rails 3', 'Postgres', 'Sidekiq', 'Redis', 'Web scraping', 'Angular', 'Bootstrap']
+  description:
+    SentenzeItalia is Italian law documents search engine and aggregator.
+    It was a legacy-code project that I maintained and improved while working for MONK.
+    I have implemented document scraping from various sources (HTML, DOC, PDF, XML, RTF),
+    resulting in nearly 1 million of law documents available for search (and thousands of new every month).
+    We have used Rails and ElasticSearch on the backend, and AngularJS
+    on the frontend. The result is fast and responsive tool
+    for searching, browsing and commenting on law documents.
+
+- name: 'Trov'
+  url: 'http://www.trov.com'
+  time: 'November 2013 - December 2013'
+  tags: ['Angular', 'TypeScript', 'ASP.MVC', 'Karma', 'Jasmine']
+  description:
+    Trov is mobile and desktop application for "collecting everything you own".
+    I covered lot of existing, untested code with Jasmine tests, fixed lot of bugs
+    and helped the team deliver final product on time.
+    This was very interesting opportunity to get familiar with Microsoft
+    web-application ecosystem.
+
+- name: 'Various @ MONK'
+  url: 'http://wearemonk.com'
+  time: 'December 2012 - September 2014'
+  tags: ['Legacy code', 'Refactoring', 'Linux servers', 'Logstash', 'Kibana']
+  description:
+    I have improved serveral legacy applications with smart refactorings
+    and unit tests, which resulted in lot of new features and
+    more confidence in the code. I also worked as a contractor when
+    building Ringpay, Trov and UpTick.
+
+- name: 'AKRA'
+  url: 'http://akra.net'
+  time: 'January 2012 - December 2012'
+  tags: ['Rails 3', 'Postgres', 'Backbone', 'Resque', 'Linux servers']
+  description:
+    I was a Senior Rails Developer in Akra team.
+    I was making sure our staging servers are available for
+    team and customers to use.
+    I was pairing a lot with Junior developers sharing knowledge,
+    best practices and improving overall coding culture in the team.
+    I was also a part in serveral Akra projects, including TurnYourTime
+    (classified ads on map, pivoted to <a href="https://cleanagents.com/">CleanAgents</a>),
+    ebookmakr (single-page Backbone applications for creating ebooks),
+    our company intranet application for managing staff,
+    WhatYouEat (social network for food lovers).
+
+- name: 'Bluetrace'
+  url: 'http://bluetrace.nl'
+  time: 'August 2011 - January 2012'
+  tags: ['Rails 2', 'MySQL', 'Linux servers', 'Wifi', 'Bluetooth', 'Bash', 'Jenkins']
+  description:
+    I have developed new features for bluBase web application
+    for collecting data from bluetooth/wifi data gathering devices,
+    which resulted in new sales and installations.
+    To improve process of shipping new code to production, I have set up
+    Continuos Integration process.
+    I simplified process of updating devices code by using git as an update protocol.
+
+- name: 'Infakt'
+  url: 'http://infakt.pl'
+  time: 'June 2011 - July 2011'
+  tags: ['Rails 2', 'MySQL', 'Legacy code']
+  description:
+    I implemented various stats browser for management team.
+    I also set up Continuos Integration server that
+    made shipping code to production by multiple developers easier.
+
+- name: 'PHP Freelance'
+  time: '2010 - 2011'
+  tags: ['Zend Framework', 'Doctrine', 'Magento', 'MySQL']
+  description:
+    Various ecommerce projects with Magento and ZendFramework
+
+- name: 'X-Formation'
+  url: 'https://www.x-formation.com'
+  time: 'April 2010 - June 2010'
+  tags: ['Zend Framework', 'Doctrine', 'MySQL']
+  description: Senior PHP Developer
+
+- name: 'bluepaprica'
+  url: 'http://bluepaprica.com'
+  time: 'October 2007 - March 2010'
+  tags: ['Zend Framework', 'Doctrine', 'MySQL']
+  description: PHP Developer

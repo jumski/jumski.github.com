@@ -1,0 +1,48 @@
+.jumbotron
+  .media
+    .pull-left
+      img src="images/wojtek.jpg" class="media-object img-circle"
+
+    .media-body.lead
+      p= data.info.summary
+      p.pull-right
+        => link_to data.info.email, "emailto:#{data.info.email}"
+        '|
+        => link_to 'LinkedIn', data.info.linkedin
+        '|
+        = link_to 'GitHub', data.info.github
+
+.row
+  ul.timeline
+    - data.projects.map { |p| OpenStruct.new(p) }.each_with_index do |project, i|
+      li class="#{'timeline-inverted' if i%2==1}"
+        .timeline-badge
+          i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            h4.timeline-title= project.name
+            p.pull-right
+              small.text-muted
+                i.glyphicon.glyphicon-time
+                =< project.time
+            p= link_to project.url, project.url
+          .timeline-body
+            p= project.description
+
+          - if project.tags
+            .tags
+              - project.tags.each do |tag|
+                span.badge= tag
+
+.row
+  h3 Technical skills
+
+  .col-md-6
+    - data.skills[0..2].each do |skill|
+      h4= skill.name
+      p= skill.description
+
+  .col-md-6
+    - data.skills[3..-1].each do |skill|
+      h4= skill.name
+      p= skill.description
