@@ -25,7 +25,7 @@
 
 - name: 'SentenzeItalia'
   url: 'http://sentenzeitalia.it'
-  time: 'December 2012 - September 2014 (with breaks)'
+  time: 'December 2012 - February 2014 (with breaks)'
   description:
     SentenzeItalia is Italian law documents search engine and aggregator.
     It was a legacy-code project that I maintained and improved while working for MONK. I have cleaned and refactored code,
@@ -36,3 +36,72 @@
     on the frontend. The result is fast and responsive tool
     for searching, browsing and commenting on law documents.
     Version 2 is now during beta testing and will be available soon.
+
+- name: 'Trov'
+  url: 'http://www.trov.com'
+  time: 'November 2013 - December 2013'
+  description:
+    Trov is mobile and desktop application for "collecting everything you own".
+    I covered lot of existing code with tests, fixed lot of bugs
+    and helped the team deliver final product on time.
+    Frontend application was written with AngularJS and TypeScript.
+    Backend used C# and ASP.MVC. This was very interesting opportunity
+    to get familiar with Microsoft web-application ecosystem.
+
+- name: 'MONK'
+  url: 'http://wearemonk.com'
+  time: 'December 2012 - September 2014'
+  description:
+    I have improved serveral legacy applications with smart refactorings
+    and unit tests, which resulted in lot of new features and
+    more confidence in the code. I also worked as a contractor when
+    building <a href="#ringpay">Ringpay</a>, <a href="#trov">Trov</a> and
+    <a href="#uptick">UpTick</a>.
+
+- name: 'AKRA'
+  url: 'http://akra.net'
+  time: 'January 2012 - December 2012'
+  description:
+    I was a Senior Rails Developer in Akra team.
+    I was making sure our staging servers are available for
+    team and customers to use.
+    I was pairing a lot with Junior developers sharing knowledge,
+    best practices and improving overall coding culture in the team.
+    I was also a part in serveral Akra projects, including TurnYourTime
+    (classified ads on map, pivoted to <a href="https://cleanagents.com/">CleanAgents</a>),
+    ebookmakr (single-page Backbone applications for creating ebooks),
+    our company intranet application for managing staff,
+    WhatYouEat (social network for food lovers).
+
+- name: 'Bluetrace'
+  url: 'http://bluetrace.nl'
+  time: 'August 2011 - January 2012'
+    I have developed new features for bluBase web application
+    for collecting data from bluetooth/wifi data gathering devices,
+    which resulted in new sales and installations.
+    To improve process of shipping new code to production, I have set up
+    Continuos Integration process.
+    I simplified process of updating devices code by using git as an update protocol.
+
+- name: 'Infakt'
+  url: 'http://infakt.pl'
+  time: 'June 2011 - July 2011'
+  description:
+    I implemented statistics browser for management team.
+    I also set up Continuos Integration server that
+    made shipping code to production by multiple developers easier.
+
+- name: 'PHP Freelance'
+  time: '2010 - 2011'
+  description:
+    Various ecommerce projects with Magento and ZendFramework <small>2010-2011</small>
+
+- name: 'X-Formation'
+  url: 'https://www.x-formation.com'
+  time: 'April 2010 - June 2010'
+  description: Senior PHP Developer
+
+- name: 'bluepaprica'
+  url: 'http://bluepaprica.com'
+  time: 'October 2007 - March 2010'
+  description: PHP Developer
