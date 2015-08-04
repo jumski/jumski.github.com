@@ -1,6 +1,6 @@
 - name: 'Freelance app'
   url: 'http://kumdle.com'
-  time: 'October 2014 - September 2015'
+  time: 'October 2014 - August 2015'
   tags: ['Rails 4.1', 'Postgres', 'Websockets']
   description:
     Kumdle is an Elance/Odesk clone. I joined half-way as a freelance contractor.
