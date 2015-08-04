@@ -1,3 +1,5 @@
+set :markdown_engine, :kramdown
+
 ###
 # Compass
 ###
