@@ -18,3 +18,8 @@ ul.timeline
           p= link_to project.url, project.url
         .timeline-body
           p= project.description
+
+          - if project.tags
+            span.tags
+              - project.tags.each do |tag|
+                span.badge= tag

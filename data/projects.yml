@@ -2,6 +2,7 @@
   url: 'http://getuptick.com'
   time: 'June 2014 - September 2014'
   company: 'MONK'
+  tags: ['Rails 4.1', 'Grape', 'JSON API', 'Sidekiq', 'Pusher', 'Postgres']
   description:
     UpTick is iPhone daytrading application for Stocks and Forex.
     I joined UpTick team half-way. I have developed new features for JSON API
@@ -16,6 +17,7 @@
   url: 'http://charing.org/start'
   time: 'February 2014 - May 2014'
   company: 'MONK'
+  tags: ['Rails 4.0', 'Postgres', 'Sidekiq', 'Rack', 'Google Cloud Messaging']
   description:
     Ringpay started as Android application for small device-to-device payments.
     I have designed and developed complete JSON API (Rails 4.1) for mobile app.
@@ -26,6 +28,7 @@
 - name: 'SentenzeItalia'
   url: 'http://sentenzeitalia.it'
   time: 'December 2012 - February 2014 (with breaks)'
+  tags: ['Rails 3', 'Postgres', 'Sidekiq', 'Redis', 'Web scraping', 'Angular', 'Bootstrap']
   description:
     SentenzeItalia is Italian law documents search engine and aggregator.
     It was a legacy-code project that I maintained and improved while working for MONK. I have cleaned and refactored code,
@@ -40,6 +43,7 @@
 - name: 'Trov'
   url: 'http://www.trov.com'
   time: 'November 2013 - December 2013'
+  tags: ['Angular', 'TypeScript', 'ASP.MVC', 'Karma', 'Jasmine']
   description:
     Trov is mobile and desktop application for "collecting everything you own".
     I covered lot of existing code with tests, fixed lot of bugs
@@ -51,6 +55,7 @@
 - name: 'Various @ MONK'
   url: 'http://wearemonk.com'
   time: 'December 2012 - September 2014'
+  tags: ['Legacy code', 'Refactoring', 'Linux servers', 'Logstash', 'Kibana']
   description:
     I have improved serveral legacy applications with smart refactorings
     and unit tests, which resulted in lot of new features and
@@ -61,6 +66,7 @@
 - name: 'AKRA'
   url: 'http://akra.net'
   time: 'January 2012 - December 2012'
+  tags: ['Rails 3', 'Postgres', 'Backbone', 'Resque', 'Linux servers']
   description:
     I was a Senior Rails Developer in Akra team.
     I was making sure our staging servers are available for
@@ -76,6 +82,8 @@
 - name: 'Bluetrace'
   url: 'http://bluetrace.nl'
   time: 'August 2011 - January 2012'
+  tags: ['Rails 2', 'MySQL', 'Linux servers', 'Wifi', 'Bluetooth', 'Bash', 'Jenkins']
+  description:
     I have developed new features for bluBase web application
     for collecting data from bluetooth/wifi data gathering devices,
     which resulted in new sales and installations.
@@ -86,6 +94,7 @@
 - name: 'Infakt'
   url: 'http://infakt.pl'
   time: 'June 2011 - July 2011'
+  tags: ['Rails 2', 'MySQL', 'Legacy code']
   description:
     I implemented statistics browser for management team.
     I also set up Continuos Integration server that
@@ -93,15 +102,18 @@
 
 - name: 'PHP Freelance'
   time: '2010 - 2011'
+  tags: ['Zend Framework', 'Doctrine', 'Magento', 'MySQL']
   description:
     Various ecommerce projects with Magento and ZendFramework <small>2010-2011</small>
 
 - name: 'X-Formation'
   url: 'https://www.x-formation.com'
   time: 'April 2010 - June 2010'
+  tags: ['Zend Framework', 'Doctrine', 'MySQL']
   description: Senior PHP Developer
 
 - name: 'bluepaprica'
   url: 'http://bluepaprica.com'
   time: 'October 2007 - March 2010'
+  tags: ['Zend Framework', 'Doctrine', 'MySQL']
   description: PHP Developer
