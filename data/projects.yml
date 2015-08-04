@@ -1,7 +1,7 @@
--
-  name: 'UpTick'
-  url: 'http://getuptick.com/'
+- name: 'UpTick'
+  url: 'http://getuptick.com'
   time: 'June 2014 - September 2014'
+  company: 'MONK'
   description:
     UpTick is iPhone daytrading application for Stocks and Forex.
     I joined UpTick team half-way. I have developed new features for JSON API
@@ -12,3 +12,27 @@
     Application is heavily optimized using Postgres functions and triggers
     and memcached as a cache backend.
 
+- name: 'Ringpay (now Charing)'
+  url: 'http://charing.org/start'
+  time: 'February 2014 - May 2014'
+  company: 'MONK'
+  description:
+    Ringpay started as Android application for small device-to-device payments.
+    I have designed and developed complete JSON API (Rails 4.1) for mobile app.
+    To limit battery drain, I preferred push notifications instead of polling when possible.
+    Most challenging part was implementing symmetric-key encryption
+    for all transaction requests, which made the app immune to HeartBleed-like attacks on SSL.
+
+- name: 'SentenzeItalia'
+  url: 'http://sentenzeitalia.it'
+  time: 'December 2012 - September 2014 (with breaks)'
+  description:
+    SentenzeItalia is Italian law documents search engine and aggregator.
+    It was a legacy-code project that I maintained and improved while working for MONK. I have cleaned and refactored code,
+    improving its quality and preparing for work on version 2 of the app.
+    I have implemented document scraping from various sources (HTML, DOC, PDF, XML, RTF),
+    resulting in nearly 1 million of law documents available for search (and thousands of new every month).
+    We have used Rails and ElasticSearch on the backend, and AngularJS
+    on the frontend. The result is fast and responsive tool
+    for searching, browsing and commenting on law documents.
+    Version 2 is now during beta testing and will be available soon.
