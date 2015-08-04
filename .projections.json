@@ -1,0 +1,12 @@
+{
+  "source/layouts/*": {"command": "layout"},
+
+  "source/javascripts/*": {"command": "javascripts"},
+
+  "source/stylesheets/*": {"command": "stylesheets"},
+
+  "source/*.slim": {"command": "view"},
+  "source/*.erb": {"command": "view"},
+  "source/*.markdown": {"command": "view"},
+  "source/*.html": {"command": "view"},
+}
