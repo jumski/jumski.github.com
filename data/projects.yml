@@ -1,0 +1,14 @@
+-
+  name: 'UpTick'
+  url: 'http://getuptick.com/'
+  time: 'June 2014 - September 2014'
+  description:
+    UpTick is iPhone daytrading application for Stocks and Forex.
+    I joined UpTick team half-way. I have developed new features for JSON API
+    (Rails 4.1, Grape), working closely with remote iOS team.
+    I have implemented support for new financial data source, parallel
+    chart data downloading, fast user geolocation and lot of other stuff.
+    I have improved test coverage and made working with the code more comfortable.
+    Application is heavily optimized using Postgres functions and triggers
+    and memcached as a cache backend.
+
