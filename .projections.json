@@ -9,4 +9,6 @@
   "source/*.erb": {"command": "view"},
   "source/*.markdown": {"command": "view"},
   "source/*.html": {"command": "view"},
+
+  "data/*.yml": {"command": "data"},
 }
