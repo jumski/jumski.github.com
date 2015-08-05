@@ -32,7 +32,7 @@
     We used Google Cloud Messaging for push notifications.
     Most challenging part was implementing symmetric-key encryption
     for all transaction requests, which made the app immune to HeartBleed-like attacks on SSL
-    (imnplemented as a Rack middleware).
+    (implemented as a Rack middleware).
 
 - name: 'SentenzeItalia'
   url: 'http://sentenzeitalia.it'
