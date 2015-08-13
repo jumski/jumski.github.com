@@ -11,7 +11,7 @@ activate :deploy do |deploy|
 end
 
 activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-XXXXXXX-X' # Replace with your property ID.
+  ga.tracking_id = 'UA-54801821-2'
 end
 
 ###
